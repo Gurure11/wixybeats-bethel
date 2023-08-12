@@ -65,12 +65,20 @@
 			height: 30px;
 			border-radius: 2px;
 		}
+		#search{
+			width: 20px;
+		}
 	</style>
 </head>
 <body id="main-body">
 	<h1 id="main-header">Wixy Beats</h1><br>
 	<br>
-	<input id="in" type="text" name="Search" placeholder="Search"><br>
+	<div class="container">
+		<form action="http://www.google.com/search" method="get" class="search-bar">
+	<input type="" name="q" placeholder="search">
+	<button type="submit"><img id="search" src="images/search.png"></button>
+	</form>
+	</div>
 	<br>
 	<br>
 
